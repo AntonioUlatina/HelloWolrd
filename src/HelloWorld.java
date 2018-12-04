@@ -1,7 +1,7 @@
 
 public class HelloWorld {
 
-	public String name;
+	public Sting name;
 	
 	public void setName(String name) {
 		this.name = name;
@@ -21,7 +21,7 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
-		HelloWorld hw = new HelloWorld();
+		HelloWorld hw = new HeloWorld();
 		hw.setName("Antonio");
 		hw.whatsMyName();
 
